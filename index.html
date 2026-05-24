@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreekar Kothapalli — CS Engineer &amp; Developer</title>
+  <meta name="description" content="Portfolio of Sreekar Kothapalli — B.Tech CSE student at IIIT Sri City, specializing in full-stack development, machine learning, and federated learning." />
+  <meta name="keywords" content="Sreekar Kothapalli, portfolio, developer, IIIT Sri City, machine learning, full stack, federated learning, DSA, web3" />
+  <meta name="author" content="Sreekar Kothapalli" />
+  <meta property="og:title" content="Sreekar Kothapalli — CS Engineer &amp; Developer" />
+  <meta property="og:description" content="B.Tech CSE @ IIIT Sri City | Full Stack · ML · Web3" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#080c14" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+  <!-- Google Fonts — preconnect then load -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+<header id="navbar" role="banner">
+  <div class="container nav-inner">
+
+    <a href="#hero" class="nav-logo" aria-label="Sreekar Kothapalli — home">
+      <span class="logo-bracket">&lt;</span><span class="logo-name">Sreekar</span><span class="logo-bracket">/&gt;</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" role="list">
+        <li><a href="#about"    data-section="about">About</a></li>
+        <li><a href="#skills"   data-section="skills">Skills</a></li>
+        <li><a href="#projects" data-section="projects">Projects</a></li>
+        <li><a href="#contact"  data-section="contact">Contact</a></li>
+        <li><a href="#contact"  class="nav-cta" data-section="">Hire Me</a></li>
+      </ul>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- Mobile navigation -->
+<nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation" aria-hidden="true">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="mobile-cta">Hire Me →</a>
+</nav>
+
+
+<main>
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<section id="hero" aria-label="Hero introduction">
+  <div class="hero-glow-1" aria-hidden="true"></div>
+  <div class="hero-glow-2" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="hero-content">
+
+      <!-- Text -->
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="dot" aria-hidden="true"></span>
+          Available for Opportunities &amp; Collaborations
+        </div>
+
+        <h1 class="hero-name">
+          Sreekar<br /><span class="gradient-text">Kothapalli</span>
+        </h1>
+
+        <p class="hero-role" aria-live="polite">
+          <span id="typed-role" aria-label="Current role description"></span><span class="cursor" aria-hidden="true"></span>
+        </p>
+
+        <p class="hero-desc">
+          B.Tech CSE student at <strong>IIIT Sri City</strong> with a passion for building
+          impactful technology. From data structures to federated learning and Web3 — I craft solutions that matter.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7z"/><path d="M22 2 11 13"/></svg>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="avatar-ring">
+          <div class="avatar-inner" id="avatar-inner">
+            <span class="gradient-text">SK</span>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="value gradient-text">8.6</span>
+            <span class="label">CGPA</span>
+          </div>
+          <div class="hero-stat">
+            <span class="value gradient-text">3+</span>
+            <span class="label">Projects</span>
+          </div>
+          <div class="hero-stat">
+            <span class="value gradient-text">'28</span>
+            <span class="label">Grad</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-mouse"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+
+<!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+<section id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Left -->
+      <div>
+        <span class="section-label reveal">About Me</span>
+        <h2 class="section-title reveal reveal-delay-1" id="about-title">
+          Building tomorrow's<br /><span class="gradient-text">tech, today.</span>
+        </h2>
+
+        <div class="about-text reveal reveal-delay-2" id="about-bio">
+          <!-- Rendered by JS -->
+        </div>
+
+        <div class="coursework-tags reveal reveal-delay-3">
+          <span class="tag">Data Structures &amp; Algorithms</span>
+          <span class="tag">Front-end Development</span>
+          <span class="tag">OOP</span>
+          <span class="tag">DBMS</span>
+        </div>
+      </div>
+
+      <!-- Right -->
+      <div>
+        <div class="edu-card reveal reveal-delay-1">
+          <div class="edu-card-header">
+            <div class="edu-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <span class="section-label" style="margin-bottom:0">Education</span>
+          </div>
+          <p class="edu-institute" id="edu-institute">Indian Institute of Information Technology, Sri City</p>
+          <p class="edu-degree" id="edu-degree">B.Tech in Computer Science &amp; Engineering</p>
+          <div class="edu-meta">
+            <span class="edu-meta-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <span id="edu-grad-year">Expected 2028</span>
+            </span>
+            <span class="edu-meta-item">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span id="edu-location">Andhra Pradesh, India</span>
+            </span>
+          </div>
+          <div class="cgpa-badge">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Current CGPA: <strong id="edu-cgpa">8.6 / 10.0</strong>
+          </div>
+        </div>
+
+        <div class="about-info-cards">
+          <div class="info-card reveal reveal-delay-2">
+            <div class="ic-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M9 2v2M15 20v2M9 20v2M2 15h2M2 9h2M20 15h2M20 9h2"/></svg>
+            </div>
+            <div class="ic-label">Specialization</div>
+            <div class="ic-value" id="edu-specialization">CS Engineering</div>
+          </div>
+          <div class="info-card reveal reveal-delay-2">
+            <div class="ic-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="ic-label">Interests</div>
+            <div class="ic-value" id="edu-interests">ML &amp; Web3</div>
+          </div>
+          <div class="info-card reveal reveal-delay-3">
+            <div class="ic-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="ic-label">Status</div>
+            <div class="ic-value" id="edu-status">Open to Work</div>
+          </div>
+          <div class="info-card reveal reveal-delay-3">
+            <div class="ic-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="ic-label">Location</div>
+            <div class="ic-value">India 🇮🇳</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ INTRO VIDEO ═══════════════════════ -->
+<section id="intro-video-section" style="display:none" aria-label="Intro video">
+  <div class="container">
+    <div class="vt-header reveal">
+      <span class="section-label">About Me</span>
+      <h2 class="vt-title">Watch My <span class="gradient-text">Intro</span></h2>
+    </div>
+    <div class="vt-wrap">
+      <div class="vt-ratio" id="video-thumb-wrap">
+        <!-- Rendered by JS: thumbnail → play → iframe -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ═══════════════════════ SKILLS ═══════════════════════ -->
+<section id="skills" aria-labelledby="skills-title">
+  <div class="container">
+
+    <div class="section-header-center">
+      <span class="section-label reveal">Technical Skills</span>
+      <h2 class="section-title reveal reveal-delay-1" id="skills-title">Tools &amp; <span class="gradient-text">Technologies</span></h2>
+      <p class="section-desc reveal reveal-delay-2">A curated set of languages, frameworks, and tools I work with to bring ideas to life.</p>
+    </div>
+
+    <div class="skills-grid" id="skills-grid">
+
+      <div class="skill-category reveal">
+        <div class="sc-header">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div><div class="sc-title">Programming Languages</div><div class="sc-sub">Core languages I code in</div></div>
+        </div>
+        <div class="skill-list" id="prog-skills"></div>
+      </div>
+
+      <div class="skill-category reveal reveal-delay-1">
+        <div class="sc-header">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <div><div class="sc-title">Web &amp; AI</div><div class="sc-sub">Development &amp; machine intelligence</div></div>
+        </div>
+        <div class="skill-list" id="webai-skills"></div>
+      </div>
+
+      <div class="skill-category reveal reveal-delay-2">
+        <div class="sc-header">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <div><div class="sc-title">Developer Tools</div><div class="sc-sub">Productivity &amp; environment</div></div>
+        </div>
+        <div class="skill-list" id="tools-skills"></div>
+      </div>
+
+    </div>
+
+    <!-- Custom Categories from Admin Panel -->
+    <div class="skills-grid" id="custom-skill-sections" style="margin-top:24px;"></div>
+
+    <!-- Extra skills from Admin Panel -->
+    <div id="extra-skills" style="display:none;margin-top:24px">
+      <div class="skill-category reveal">
+        <div class="sc-header">
+          <div class="sc-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div><div class="sc-title">Additional Skills</div><div class="sc-sub">Added via Admin Panel</div></div>
+        </div>
+        <div class="skill-badges-dynamic" id="extra-badges"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ═══════════════════════ PROJECTS ═══════════════════════ -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="container">
+
+    <div class="section-header-center">
+      <span class="section-label reveal">Portfolio</span>
+      <h2 class="section-title reveal reveal-delay-1" id="projects-title">Featured <span class="gradient-text">Projects</span></h2>
+      <p class="section-desc reveal reveal-delay-2">A selection of projects that showcase my problem-solving approach and technical breadth.</p>
+    </div>
+
+    <div class="projects-grid" id="projects-grid">
+      <!-- Rendered by JS -->
+    </div>
+
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ═══════════════════════ CERTIFICATES ═══════════════════════ -->
+<div class="section-divider" id="cert-divider"></div>
+<section id="certificates" aria-labelledby="certs-title">
+  <div class="container">
+
+    <div class="section-header-center">
+      <span class="section-label reveal">Achievements</span>
+      <h2 class="section-title reveal reveal-delay-1" id="certs-title">Certificates &amp; <span class="gradient-text">Credentials</span></h2>
+      <p class="section-desc reveal reveal-delay-2">Validated skills and professional recognitions from leading platforms.</p>
+    </div>
+
+    <div class="cert-grid" id="cert-grid">
+      <!-- Rendered by JS -->
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left info -->
+      <div>
+        <span class="section-label reveal">Get In Touch</span>
+        <h2 class="section-title reveal reveal-delay-1" id="contact-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-desc reveal reveal-delay-2" style="margin-bottom:0">
+          Whether you have an exciting project, an internship opportunity, or just want to say hi — my inbox is always open.
+        </p>
+
+        <div class="contact-info-list">
+          <a href="tel:+919618427974" class="contact-item reveal reveal-delay-2" id="contact-phone-link">
+            <div class="ci-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.82 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.77 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.61 5.61l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="ci-label">Phone</div>
+              <div class="ci-value" id="contact-phone">+91 9618427974</div>
+            </div>
+          </a>
+
+          <a href="mailto:sreekar.k24@iiits.in" class="contact-item reveal reveal-delay-3" id="contact-email-link">
+            <div class="ci-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-value" id="contact-email">sreekar.k24@iiits.in</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/sreekar-kothapalli" target="_blank" rel="noopener noreferrer" class="contact-item reveal reveal-delay-4" id="contact-linkedin-link">
+            <div class="ci-icon" aria-hidden="true">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div>
+              <div class="ci-label">LinkedIn</div>
+              <div class="ci-value" id="contact-linkedin">linkedin.com/in/sreekar-kothapalli</div>
+            </div>
+          </a>
+        </div>
+
+        <div id="contact-extra-links" class="contact-extra-grid" style="margin-top:16px; display:grid; gap:16px;"></div>
+      </div>
+
+      <!-- Right form -->
+      <div class="contact-form reveal reveal-delay-1">
+        <h3>Send a Message</h3>
+        <p>Fill out the form and I'll respond within 24 hours.</p>
+
+        <form id="contact-form" novalidate>
+          <!-- Honeypot anti-spam (bots fill this, humans don't) -->
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" aria-hidden="true" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cf-name">Your Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="John Doe" required autocomplete="name" />
+              <span class="field-error" id="err-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-email">Email Address</label>
+              <input type="email" id="cf-email" name="email" placeholder="john@example.com" required autocomplete="email" />
+              <span class="field-error" id="err-email"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cf-subject">Subject</label>
+            <select id="cf-subject" name="subject">
+              <option value="">Select a topic…</option>
+              <option value="internship">Internship Opportunity</option>
+              <option value="project">Project Collaboration</option>
+              <option value="freelance">Freelance Work</option>
+              <option value="general">General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" name="message" placeholder="Tell me about your project or opportunity…" required></textarea>
+            <span class="field-error" id="err-message"></span>
+          </div>
+
+          <!-- Error box -->
+          <div class="form-error" id="form-error" role="alert" style="display:none"></div>
+
+          <button type="submit" class="btn-primary btn-full" id="form-submit-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4 20-7z"/><path d="M22 2 11 13"/></svg>
+            <span id="submit-text">Send Message</span>
+          </button>
+
+          <div class="form-success" id="form-success" role="alert" aria-live="polite">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Message sent! Thank you — I'll reply soon.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+<footer role="contentinfo">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; 2026 <span>Sreekar Kothapalli</span>. Crafted with passion &amp; code.</p>
+    <p class="footer-hint" title="Type sreekar2006 anywhere to unlock the admin panel">// Type a secret sequence… 👾</p>
+  </div>
+</footer>
+
+
+<!-- (video modal removed — video now plays inline) -->
+
+
+<!-- ═══════════════════════ ADMIN OVERLAY ═══════════════════════ -->
+<div id="admin-overlay" role="dialog" aria-modal="true" aria-labelledby="admin-panel-title" aria-hidden="true">
+  <div id="admin-modal">
+
+    <!-- Header -->
+    <div class="admin-header">
+      <div class="admin-header-left">
+        <div class="admin-icon" aria-hidden="true">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div>
+          <div class="admin-title" id="admin-panel-title">Admin Control Panel</div>
+          <div class="admin-subtitle">// sreekar2006 sequence activated · localStorage persistence</div>
+        </div>
+      </div>
+      <button class="admin-close" id="admin-close-btn" aria-label="Close admin panel">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="admin-tabs" role="tablist" aria-label="Admin sections">
+      <button class="admin-tab active" data-tab="projects" role="tab" id="tab-projects" aria-controls="panel-projects" aria-selected="true">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        Projects
+      </button>
+      <button class="admin-tab" data-tab="skills" role="tab" id="tab-skills" aria-controls="panel-skills" aria-selected="false">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Skills
+      </button>
+      <button class="admin-tab" data-tab="contact" role="tab" id="tab-contact" aria-controls="panel-contact" aria-selected="false">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Contact
+      </button>
+      <button class="admin-tab" data-tab="education" role="tab" id="tab-education" aria-controls="panel-education" aria-selected="false">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        Education
+      </button>
+      <button class="admin-tab" data-tab="certificates" role="tab" id="tab-certificates" aria-controls="panel-certificates" aria-selected="false">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+        Certs
+      </button>
+      <button class="admin-tab" data-tab="media" role="tab" id="tab-media" aria-controls="panel-media" aria-selected="false">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Media
+      </button>
+    </div>
+
+    <!-- Body -->
+    <div class="admin-body">
+
+      <!-- Projects -->
+      <div class="admin-panel active" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects">
+        <h3>Manage Projects</h3>
+        <p>Add or remove projects. Changes appear instantly on the page.</p>
+
+        <div class="admin-section-label">Current Projects</div>
+        <div class="admin-project-list" id="admin-project-list"></div>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Add New Project</div>
+
+        <div class="form-group">
+          <label for="new-project-title">Project Title *</label>
+          <input type="text" id="new-project-title" placeholder="e.g. E-Commerce Platform" />
+        </div>
+        <div class="form-group">
+          <label for="new-project-cat">Category</label>
+          <input type="text" id="new-project-cat" placeholder="e.g. Full Stack, Research, ML…" />
+        </div>
+        <div class="form-group">
+          <label for="new-project-tags">Tags <span class="label-hint">(comma separated)</span></label>
+          <input type="text" id="new-project-tags" placeholder="React, Node.js, MongoDB…" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="new-project-github">GitHub URL</label>
+            <input type="url" id="new-project-github" placeholder="https://github.com/…" />
+          </div>
+          <div class="form-group">
+            <label for="new-project-live">Live Demo URL</label>
+            <input type="url" id="new-project-live" placeholder="https://yourproject.com" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="new-project-desc">Description</label>
+          <textarea id="new-project-desc" placeholder="Describe the project, tech stack, and what you built…" style="min-height:90px"></textarea>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="admin-panel" id="panel-skills" role="tabpanel" aria-labelledby="tab-skills">
+        <h3>Manage Skills</h3>
+        <p>Remove skills from any category or add new ones below.</p>
+
+        <div class="admin-section-label">Current Skills</div>
+        <!-- Populated by JS — shows all 4 categories with remove buttons -->
+        <div id="admin-all-skills"></div>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Add a Custom Category</div>
+        <div class="form-row">
+          <div class="form-group" style="flex:2">
+            <label for="new-custom-cat-name">Category Name</label>
+            <input type="text" id="new-custom-cat-name" placeholder="e.g. Design, Soft Skills..." />
+          </div>
+        </div>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Add a Skill</div>
+
+        <div class="form-row">
+          <div class="form-group" style="flex:2">
+            <label for="new-skill-name">Skill Name *</label>
+            <input type="text" id="new-skill-name" placeholder="e.g. TypeScript, Docker, PyTorch…" />
+          </div>
+          <div class="form-group" style="flex:1">
+            <label for="new-skill-level">Proficiency % <span class="label-hint">(1–100)</span></label>
+            <input type="number" id="new-skill-level" placeholder="75" min="1" max="100" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="new-skill-cat">Add to Category</label>
+          <select id="new-skill-cat">
+            <option value="programming">Programming Languages</option>
+            <option value="webAi">Web &amp; AI</option>
+            <option value="tools">Developer Tools</option>
+            <option value="extra">Additional / Other</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="admin-panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact">
+        <h3>Edit Contact Info</h3>
+        <p>Updates are reflected immediately on the public portfolio after saving.</p>
+
+        <div class="form-group">
+          <label for="admin-phone">Phone Number</label>
+          <input type="tel" id="admin-phone" placeholder="+91 XXXXX XXXXX" autocomplete="tel" />
+        </div>
+        <div class="form-group">
+          <label for="admin-email">Email Address</label>
+          <input type="email" id="admin-email" placeholder="you@example.com" autocomplete="email" />
+        </div>
+        <div class="form-group">
+          <label for="admin-linkedin">LinkedIn URL</label>
+          <input type="url" id="admin-linkedin" placeholder="https://linkedin.com/in/username" />
+        </div>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Current Extra Links</div>
+        <div class="admin-project-list" id="admin-extralinks-list"></div>
+
+        <div class="admin-section-label" style="margin-top:24px;">Add Extra Link</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="new-extralink-label">Link Label</label>
+            <input type="text" id="new-extralink-label" placeholder="e.g. GitHub, Twitter" />
+          </div>
+          <div class="form-group">
+            <label for="new-extralink-icon">Icon</label>
+            <select id="new-extralink-icon">
+              <option value="globe">Globe (Default)</option>
+              <option value="github">GitHub</option>
+              <option value="twitter">Twitter</option>
+              <option value="instagram">Instagram</option>
+              <option value="youtube">YouTube</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="new-extralink-url">URL</label>
+          <input type="url" id="new-extralink-url" placeholder="https://..." />
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="admin-panel" id="panel-education" role="tabpanel" aria-labelledby="tab-education">
+        <h3>Edit Education</h3>
+        <p>Updates reflect instantly on the About section and hero CGPA stat.</p>
+
+        <div class="form-group">
+          <label for="admin-institute">Institution Name</label>
+          <input type="text" id="admin-institute" placeholder="e.g. IIT Bombay" />
+        </div>
+        <div class="form-group">
+          <label for="admin-degree">Degree &amp; Branch</label>
+          <input type="text" id="admin-degree" placeholder="e.g. B.Tech in Computer Science" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="admin-grad-year">Graduation Year</label>
+            <input type="text" id="admin-grad-year" placeholder="e.g. 2028" />
+          </div>
+          <div class="form-group">
+            <label for="admin-edu-location">Location</label>
+            <input type="text" id="admin-edu-location" placeholder="e.g. Mumbai, India" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="admin-cgpa">Current CGPA</label>
+            <input type="text" id="admin-cgpa" placeholder="e.g. 8.6" />
+          </div>
+          <div class="form-group">
+            <label for="admin-cgpa-max">Out of</label>
+            <input type="text" id="admin-cgpa-max" placeholder="e.g. 10.0" />
+          </div>
+        </div>
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Info Cards</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="admin-specialization">Specialization</label>
+            <input type="text" id="admin-specialization" placeholder="e.g. CS Engineering" />
+          </div>
+          <div class="form-group">
+            <label for="admin-interests">Interests</label>
+            <input type="text" id="admin-interests" placeholder="e.g. ML &amp; Web3" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="admin-status">Status</label>
+          <input type="text" id="admin-status" placeholder="e.g. Open to Work" />
+        </div>
+      </div>
+
+      <!-- Certificates -->
+      <div class="admin-panel" id="panel-certificates" role="tabpanel" aria-labelledby="tab-certificates">
+        <h3>Manage Certificates</h3>
+        <p>Add credentials from Coursera, Google, AWS, HackerRank, etc.</p>
+
+        <div class="admin-section-label">Current Certificates</div>
+        <div class="admin-project-list" id="admin-cert-list"></div>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Add New Certificate</div>
+
+        <div class="form-group">
+          <label for="new-cert-title">Certificate Title *</label>
+          <input type="text" id="new-cert-title" placeholder="e.g. Machine Learning Specialization" />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="new-cert-issuer">Issuing Organisation</label>
+            <input type="text" id="new-cert-issuer" placeholder="e.g. Coursera, Google, AWS&hellip;" />
+          </div>
+          <div class="form-group">
+            <label for="new-cert-date">Date</label>
+            <input type="text" id="new-cert-date" placeholder="e.g. June 2025" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="new-cert-url">Credential URL <span class="label-hint">(optional)</span></label>
+          <input type="url" id="new-cert-url" placeholder="https://coursera.org/verify/&hellip;" />
+        </div>
+        <div class="form-group">
+          <label for="new-cert-image">Thumbnail Image URL <span class="label-hint">(optional)</span></label>
+          <input type="url" id="new-cert-image" placeholder="https://... (direct image link)" />
+        </div>
+        <div class="form-group">
+          <label for="new-cert-desc">Description <span class="label-hint">(optional)</span></label>
+          <textarea id="new-cert-desc" placeholder="What skills did this certify?" style="min-height:72px"></textarea>
+        </div>
+      </div>
+
+      <!-- Media -->
+      <div class="admin-panel" id="panel-media" role="tabpanel" aria-labelledby="tab-media">
+        <h3>Profile &amp; Media</h3>
+        <p>Update your photo and intro video.</p>
+
+        <div class="admin-section-label">Profile Photo</div>
+        <div class="form-group">
+          <label for="admin-photo-url">Photo Image URL</label>
+          <input type="url" id="admin-photo-url" placeholder="https://... (direct image link)" />
+        </div>
+        <p style="font-size:.78rem;color:var(--text-muted);margin-top:-8px;margin-bottom:24px;">
+          Leave blank to use initials.
+        </p>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">About Me / Bio</div>
+        <div class="form-group">
+          <label for="admin-bio">Biography (HTML allowed)</label>
+          <textarea id="admin-bio" placeholder="Write about yourself. Separate paragraphs with double newlines." style="min-height:160px; font-family: monospace;"></textarea>
+        </div>
+        <p style="font-size:.78rem;color:var(--text-muted);margin-top:-8px;margin-bottom:24px;">
+          You can use &lt;strong&gt;text&lt;/strong&gt; for bolding. Each block separated by a blank line becomes a new paragraph.
+        </p>
+
+        <hr class="admin-divider" />
+        <div class="admin-section-label">Intro Video</div>
+        <div class="form-group">
+          <label for="admin-video-url">Video URL</label>
+          <input type="url" id="admin-video-url" placeholder="https://youtube.com/watch?v=… or https://loom.com/share/…" />
+        </div>
+        <p style="font-size:.78rem;color:var(--text-muted);margin-top:-8px">
+          Supports: YouTube &middot; Loom &middot; Direct MP4/WebM links. Leave blank to hide the video.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="admin-footer">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span class="admin-footer-hint" style="margin-right:0;">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Saves globally to Cloud
+        </span>
+        <input type="password" id="admin-master-key" placeholder="Master API Key" style="padding:6px 10px; font-size:0.75rem; width:140px; background:var(--bg-primary); border:1px solid var(--border); border-radius:var(--r-sm); color:var(--text-main);" title="JSONBin.io Master Key" />
+      </div>
+      <div class="admin-footer-btns">
+        <button class="btn-reset" id="admin-reset-btn">Reset Defaults</button>
+        <button class="btn-save" id="admin-save-btn">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+          Save Changes
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Toast container -->
+<div id="toast-container" aria-live="polite" aria-atomic="false" aria-label="Notifications"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
