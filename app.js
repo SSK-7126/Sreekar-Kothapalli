@@ -118,7 +118,7 @@ function deepClone(obj) {
 
 async function loadData() {
   try {
-    const res = await fetch(`https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest`);
+    const res = await fetch(`https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}/latest?t=${Date.now()}`, { cache: 'no-store' });
     if (!res.ok) throw new Error('Fetch failed');
     const data = await res.json();
     if (data && data.record) {
